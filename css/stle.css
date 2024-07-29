@@ -1,0 +1,99 @@
+:root {
+  --color1:rgb(104, 0, 0);
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: #fdfdfd;
+  background-image: url("https://www.transparenttextures.com/patterns/basketball.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.card {
+  background-color: aliceblue;
+  width: 328px;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.863);
+}
+.card-header {
+  width: 100%;
+  display: block;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  text-align: center;
+  border-bottom: #cc6442 1px solid;
+}
+.card-body-title {
+  font-size: 3rem;
+}
+.card-body-title span {
+  color: red;
+  text-shadow: 1px 1px black;
+}
+.card-body-text {
+  font-size: 1.4rem;
+}
+.card-body-contentimg {
+  display: flex;
+  margin: auto;
+  border: 5px solid #F67C55;
+  box-shadow: 0px 0px 10px #F67C55, 0px 0px 10px #cc6442;
+  border-radius: 70%;
+  width: 80%;
+  background-color: #FCD3C6;
+  margin-top: -100px;
+}
+.card-body-contentimg-img {
+  width: 90%;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.card-body-contentimg-img:hover {
+  transform: scale(1.4);
+}
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card-footer-power {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2rem auto;
+}
+.card-footer-power h3 {
+  font-size: 1.8rem;
+}
+.card-footer-power img {
+  width: 70px;
+  transition: all 0.3s ease;
+}
+.card-footer-power img:hover {
+  transform: scale(1.3);
+}/*# sourceMappingURL=stle.css.map */
